@@ -41,6 +41,10 @@ R 패키지를 작성하는 과정에서 `htmlwidgets`를 통해 JS 라이브러
 # 예제
 
 ```r
+# 설치
+devtools::install_github('lumiamitie/WordcloudVega')
+
+# 실행
 library('WordcloudVega')
 simple_wordcloud(lorem_ipsum())
 ```
