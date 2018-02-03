@@ -37,3 +37,10 @@ R 패키지를 작성하는 과정에서 `htmlwidgets`를 통해 JS 라이브러
 7. 빌드
     - roxygenize (`devtools::document()` or `roxygen2::roxygenize()`)
     - Build > Install and Restart (Cmd + Shift + B)
+
+# 예제
+
+```r
+library('WordcloudVega')
+simple_wordcloud(lorem_ipsum())
+```
