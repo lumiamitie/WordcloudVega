@@ -1,0 +1,11 @@
+dependencies:
+  - name: vega
+    version: 3.0.10
+    src: htmlwidgets/lib/
+    script:
+      - vega.js
+  - name: vega-embed
+    version: 3.0.0
+    src: htmlwidgets/lib/
+    script:
+      - vega-embed.js
